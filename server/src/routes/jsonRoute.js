@@ -1,5 +1,5 @@
 import {Router} from "express";
-import { deleteJson, getJson, postJson, putJson } from "../controllers/jsonController.js";
+import { deleteJson, getJson, postJson, putJson } from "../controller.js/jsonController.js";
 
 const route = Router();
 route.get("/",getJson);
